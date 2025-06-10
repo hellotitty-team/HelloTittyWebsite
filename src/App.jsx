@@ -3,6 +3,7 @@ import Hero from './components/hero';
 import Details from './components/details';
 import Chart from './components/chart';
 import Roadmap from './components/roadmap';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Details />
       <Roadmap />
       <Chart />
+      <Footer />
     </div>
   );
 }
